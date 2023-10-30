@@ -3,22 +3,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>title</title>
-    
+    <script type="text/javascript" src="/public/javascripts/javascript.js"></script>
+    <link rel="stylesheet" href="/public/stylesheets/style.css">
 </head>
 <body>
     <h1>Login</h1>
     <div id="container">
-    <form action=""></form>
-    <label for="username"><b>Username</b></label>
-    <input type="username" placeholder="Enter username" value="Jens" required > <br> <br>
+    <form action="/users" method="POST"> 
+        <label for="username"><b>Username</b></label>
+        <input type="username" placeholder="Enter username" value="Jens" required > <br> <br>
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" value="Gut" required> <br> <br>
+        <button type="submit">Login</button>
+    </form>
     </div>
 
-    <div id="container">
-    <label for="password"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" value="Gut" required> <br> <br>
-    </div>
-
-    <button type="submit">Login</button>
 
 
 
